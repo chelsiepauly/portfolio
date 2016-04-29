@@ -1,0 +1,54 @@
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background-image: url(images/background.png);
+    background-color: #FFFFFF;
+    padding: inherit;
+}
+
+nav {
+    font-family: fantasy, sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+main {
+    align-content: center;
+    background-color: #FFFFFF;
+    padding-bottom: 35px;
+    padding: inherit;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-family: candara, sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #222222;
+    color: #9d9d9d;
+    text-align: center;
+    padding: 5px;
+    font-family: candara, sans-serif;
+}
+
+li,
+p {
+    font-family: candara, sans-serif;
+    font-size: medium;
+    padding-right: 50px;
+}
