@@ -6,7 +6,7 @@ html {
 
 body {
     /* Move down content because of fixed navbar at top */
-    padding-top: 50px;
+    margin-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
     background-image: url(images/background.png);
